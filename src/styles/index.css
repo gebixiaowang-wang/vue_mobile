@@ -1,6 +1,3 @@
-body {
-  background-image: linear-gradient(to right, hotpink, orange, yellow, skyblue);
-}
 @font-face {
   font-family: "iconfont";
   src: url('//at.alicdn.com/t/font_2043584_v2o5qvpv41.eot?t=1599098818262');
@@ -77,4 +74,18 @@ body {
 }
 .icon-pinglun:before {
   content: "\e615";
+}
+body {
+  background-color: #f5f7f9;
+}
+.page-nav-bar {
+  background-color: #3296fa;
+  color: #fff;
+}
+.page-nav-bar .van-nav-bar__title,
+.page-nav-bar .van-icon {
+  color: #fff;
+}
+.van-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
 }
